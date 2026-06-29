@@ -3,18 +3,9 @@ import pandas as pd
 import os
 os.system('cls')
 from itertools import combinations
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, log_loss
 from collections import Counter
-import matplotlib.pyplot as plt
-import seaborn as sns
 import joblib
-from tqdm import tqdm
-from sklearn.model_selection import RandomizedSearchCV, TimeSeriesSplit
 import warnings
-import xgboost as xgb
-import lightgbm as lgb
-import time
 import streamlit as st
 import altair as alt
 import ast
