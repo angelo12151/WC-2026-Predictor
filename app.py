@@ -472,11 +472,10 @@ except Exception as e:
 st.title("🏆 Simulatore Predittivo - FIFA World Cup 2026")
 st.markdown("Motore Live aggiornato in tempo reale | Modello Ensemble (RF + XGB + LGBM)")
 
-st.sidebar.header("Vuoi sbancare con le bet?🤑💸" \
-"Ci pensa Angelo! 😜")
+st.sidebar.header("Vuoi sbancare con le bet?🤑💸\nCi pensa Angelo!😜")
 modalita = st.sidebar.radio(
     "Scegli la modalità:",
-    ["⚽ Previsione Match Singolo", "🏆🥇 Simulazione Torneo"]
+    ["⚽ Previsione Singolo Match", "🏆🥇 Simulazione Torneo (Monte Carlo)"]
 )
 
 # =====================================================================
